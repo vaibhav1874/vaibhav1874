@@ -293,14 +293,14 @@
 <br/>
 
 <!-- Stats + Languages side by side -->
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=vaibhav1874&show_icons=true&theme=transparent&bg_color=0d0d1a&hide_border=true&icon_color=00d4ff&title_color=a855f7&text_color=e2e8f0&ring_color=7b2ff7&count_private=true" alt="GitHub Stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=vaibhav1874&show_icons=true&theme=tokyonight&bg_color=0d0d1a&hide_border=true&icon_color=00d4ff&title_color=a855f7&text_color=e2e8f0&ring_color=7b2ff7&count_private=true" alt="GitHub Stats"/>
 &nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav1874&layout=compact&theme=transparent&bg_color=0d0d1a&hide_border=true&title_color=a855f7&text_color=e2e8f0&langs_count=8" alt="Top Languages"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhav1874&layout=compact&theme=tokyonight&bg_color=0d0d1a&hide_border=true&title_color=a855f7&text_color=e2e8f0&langs_count=8" alt="Top Languages"/>
 
 <br/><br/>
 
 <!-- Streak -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhav1874&theme=transparent&background=0d0d1a&border=00000000&ring=a855f7&fire=00d4ff&currStreakLabel=7b2ff7&sideLabels=e2e8f0&currStreakNum=ffffff&sideNums=e2e8f0&dates=64748b" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vaibhav1874&theme=tokyonight&background=0d0d1a&border=00000000&ring=a855f7&fire=00d4ff&currStreakLabel=7b2ff7&sideLabels=e2e8f0&currStreakNum=ffffff&sideNums=e2e8f0&dates=64748b" alt="GitHub Streak"/>
 
 <br/><br/>
 
@@ -310,7 +310,7 @@
 <br/><br/>
 
 <!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=vaibhav1874&theme=onestar&row=1&column=6&no-bg=true&no-frame=true&title_color=a855f7&icon_color=00d4ff" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=vaibhav1874&theme=tokyonight&row=1&column=6&no-bg=true&no-frame=true&title_color=a855f7&icon_color=00d4ff" alt="GitHub Trophies"/>
 
 <br/><br/>
 
