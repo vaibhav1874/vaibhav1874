@@ -1,0 +1,103 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14"/>
+      <stop offset="100%" style="stop-color:#05050f"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#12122e"/>
+    </linearGradient>
+    <linearGradient id="promptGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#7b2ff7"/>
+    </linearGradient>
+    <filter id="termGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="termClip">
+      <rect width="900" height="420" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#termClip)">
+    <!-- Background -->
+    <rect width="900" height="420" fill="url(#termBg)"/>
+
+    <!-- Terminal header bar -->
+    <rect width="900" height="40" fill="url(#headerGrad)"/>
+    <rect y="40" width="900" height="1" fill="#ffffff10"/>
+
+    <!-- Traffic lights -->
+    <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+    <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+    <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+
+    <!-- Terminal title -->
+    <text x="450" y="24" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffffff50" letter-spacing="3">vaibhav@ai-system ~ bash</text>
+
+    <!-- Subtle grid -->
+    <line x1="0" y1="80" x2="900" y2="80" stroke="#ffffff04" stroke-width="1"/>
+    <line x1="0" y1="130" x2="900" y2="130" stroke="#ffffff04" stroke-width="1"/>
+    <line x1="0" y1="180" x2="900" y2="180" stroke="#ffffff04" stroke-width="1"/>
+    <line x1="0" y1="230" x2="900" y2="230" stroke="#ffffff04" stroke-width="1"/>
+    <line x1="0" y1="280" x2="900" y2="280" stroke="#ffffff04" stroke-width="1"/>
+    <line x1="0" y1="330" x2="900" y2="330" stroke="#ffffff04" stroke-width="1"/>
+    <line x1="0" y1="380" x2="900" y2="380" stroke="#ffffff04" stroke-width="1"/>
+
+    <!-- Command line 1 -->
+    <text x="40" y="80" font-family="'Courier New', monospace" font-size="13" fill="#00d4ff" filter="url(#termGlow)">▶</text>
+    <text x="58" y="80" font-family="'Courier New', monospace" font-size="13" fill="#a855f7">whoami</text>
+
+    <!-- whoami output -->
+    <rect x="40" y="90" width="820" height="1" fill="#ffffff08"/>
+    <text x="58" y="112" font-family="'Courier New', monospace" font-size="12" fill="#64748b">NAME</text>
+    <text x="200" y="112" font-family="'Courier New', monospace" font-size="12" fill="#e2e8f0">Vaibhav Gurjar</text>
+    <text x="58" y="132" font-family="'Courier New', monospace" font-size="12" fill="#64748b">ROLE</text>
+    <text x="200" y="132" font-family="'Courier New', monospace" font-size="12" fill="#00d4ff">AI Engineer · Builder · Creator</text>
+    <text x="58" y="152" font-family="'Courier New', monospace" font-size="12" fill="#64748b">MISSION</text>
+    <text x="200" y="152" font-family="'Courier New', monospace" font-size="12" fill="#a855f7">Build intelligent systems that solve real problems</text>
+    <text x="58" y="172" font-family="'Courier New', monospace" font-size="12" fill="#64748b">STATUS</text>
+    <text x="200" y="172" font-family="'Courier New', monospace" font-size="12" fill="#4ade80">● ONLINE · Building · Learning · Growing</text>
+    <text x="58" y="192" font-family="'Courier New', monospace" font-size="12" fill="#64748b">FOCUS</text>
+    <text x="200" y="192" font-family="'Courier New', monospace" font-size="12" fill="#e2e8f0">Machine Learning · AI Systems · Full Stack</text>
+    <text x="58" y="212" font-family="'Courier New', monospace" font-size="12" fill="#64748b">MODE</text>
+    <text x="200" y="212" font-family="'Courier New', monospace" font-size="12" fill="#f59e0b">⚡ Deep Learning Mode Activated</text>
+
+    <!-- Divider -->
+    <rect x="40" y="228" width="820" height="1" fill="#ffffff10"/>
+
+    <!-- Command line 2 -->
+    <text x="40" y="252" font-family="'Courier New', monospace" font-size="13" fill="#00d4ff" filter="url(#termGlow)">▶</text>
+    <text x="58" y="252" font-family="'Courier New', monospace" font-size="13" fill="#a855f7">cat philosophy.txt</text>
+
+    <!-- Philosophy output -->
+    <text x="58" y="278" font-family="'Courier New', monospace" font-size="12" fill="#7b2ff7">//</text>
+    <text x="75" y="278" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8"> Every line of code is a step toward something great.</text>
+    <text x="58" y="298" font-family="'Courier New', monospace" font-size="12" fill="#7b2ff7">//</text>
+    <text x="75" y="298" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8"> Build first. Learn constantly. Ship always.</text>
+    <text x="58" y="318" font-family="'Courier New', monospace" font-size="12" fill="#7b2ff7">//</text>
+    <text x="75" y="318" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8"> AI is not the future — it's the present tool.</text>
+
+    <!-- Divider -->
+    <rect x="40" y="332" width="820" height="1" fill="#ffffff10"/>
+
+    <!-- Command line 3 -->
+    <text x="40" y="356" font-family="'Courier New', monospace" font-size="13" fill="#00d4ff" filter="url(#termGlow)">▶</text>
+    <text x="58" y="356" font-family="'Courier New', monospace" font-size="13" fill="#a855f7">./run_mission.sh</text>
+
+    <!-- Mission output -->
+    <text x="58" y="378" font-family="'Courier New', monospace" font-size="12" fill="#4ade80">✓</text>
+    <text x="75" y="378" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8"> Initializing AI systems...</text>
+    <text x="58" y="398" font-family="'Courier New', monospace" font-size="12" fill="#00d4ff">_</text>
+    <!-- Cursor blink -->
+    <rect x="58" y="386" width="7" height="14" fill="#00d4ff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Border -->
+  <rect x="0.5" y="0.5" width="899" height="419" rx="13.5" fill="none" stroke="#7b2ff720" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="899" height="419" rx="13.5" fill="none" stroke="#00d4ff15" stroke-width="1"/>
+</svg>

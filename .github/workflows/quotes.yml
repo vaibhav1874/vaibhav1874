@@ -1,0 +1,59 @@
+name: Update Daily Quote
+
+on:
+  schedule:
+    - cron: "0 0 * * *"       # Every day at midnight UTC
+  workflow_dispatch:           # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Select a random quote
+        id: quote
+        run: |
+          python3 - <<'EOF'
+          import json, random, os
+
+          with open("quotes.json", "r") as f:
+              data = json.load(f)
+
+          q = random.choice(data["quotes"])
+          text = q["text"].replace('"', '\\"')
+          author = q["author"].replace('"', '\\"')
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f'quote={text}\n')
+              f.write(f'author={author}\n')
+          EOF
+
+      - name: Write quote to quote.md
+        run: |
+          cat > assets/quote.md << 'QUOTE_END'
+          <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
+          > "${{ steps.quote.outputs.quote }}"
+          >
+          > — **${{ steps.quote.outputs.author }}**
+          QUOTE_END
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/quote.md
+          git diff --staged --quiet || git commit -m "chore: auto-update daily quote [skip ci]"
+          git push

@@ -1,0 +1,54 @@
+{
+  "name": "Vaibhav Gurjar",
+  "username": "vaibhav1874",
+  "title": "AI Engineer",
+  "titles": [
+    "AI Engineer",
+    "Machine Learning Enthusiast",
+    "Full Stack Developer",
+    "Product Builder",
+    "Open Source Learner"
+  ],
+  "email": "vaibhavgurjar900@gmail.com",
+  "github": "https://github.com/vaibhav1874",
+  "linkedin": "https://www.linkedin.com/in/vaibhavgurjar",
+  "mission": "Build intelligent systems that solve real-world problems",
+  "philosophy": "Build first. Learn constantly. Ship always.",
+  "currentFocus": [
+    "Machine Learning",
+    "Deep Learning",
+    "AI Systems",
+    "Backend Engineering",
+    "Frontend Engineering",
+    "Open Source"
+  ],
+  "techStack": {
+    "languages": ["Python", "JavaScript", "TypeScript", "C++", "Java", "HTML", "CSS", "SQL"],
+    "ai_ml": ["Pandas", "NumPy", "Matplotlib", "Scikit-Learn", "TensorFlow", "PyTorch", "OpenCV", "LangChain", "Hugging Face"],
+    "frontend": ["React", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+    "backend": ["FastAPI", "Node.js", "Express.js"],
+    "databases": ["MongoDB", "Firebase", "PostgreSQL"],
+    "cloud_tools": ["Git", "GitHub", "VS Code", "Figma", "Postman", "Vercel", "Render"],
+    "design": ["Figma", "SVG", "CSS Animations"]
+  },
+  "mlJourney": {
+    "Python": "Intermediate",
+    "Pandas": "Intermediate",
+    "NumPy": "Intermediate",
+    "Matplotlib": "Learning",
+    "Statistics": "Learning",
+    "Scikit-Learn": "Learning",
+    "Machine Learning": "Building",
+    "TensorFlow": "Learning",
+    "PyTorch": "Learning",
+    "Deep Learning": "Exploring",
+    "Computer Vision": "Exploring",
+    "NLP": "Exploring",
+    "Generative AI": "Planned",
+    "LLMs": "Planned",
+    "AI Agents": "Planned"
+  },
+  "status": "ONLINE",
+  "mode": "Builder Mode Active",
+  "lastUpdated": "2026-07-08"
+}

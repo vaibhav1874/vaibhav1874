@@ -1,0 +1,187 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Main gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000"/>
+      <stop offset="40%" style="stop-color:#050510"/>
+      <stop offset="100%" style="stop-color:#0a0520"/>
+    </linearGradient>
+    <!-- Neon blue gradient -->
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#7b2ff7"/>
+    </linearGradient>
+    <!-- Purple glow gradient -->
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7b2ff7"/>
+      <stop offset="100%" style="stop-color:#00d4ff"/>
+    </linearGradient>
+    <!-- Text gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e0e7ff"/>
+      <stop offset="50%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#c4b5fd"/>
+    </linearGradient>
+    <!-- Name gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="50%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#7b2ff7"/>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Soft glow -->
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Grid pattern -->
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff06" stroke-width="0.5"/>
+    </pattern>
+    <!-- Clip path -->
+    <clipPath id="bannerClip">
+      <rect width="900" height="280" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <!-- Background -->
+    <rect width="900" height="280" fill="url(#bgGrad)"/>
+    <!-- Grid overlay -->
+    <rect width="900" height="280" fill="url(#grid)"/>
+
+    <!-- Ambient glows -->
+    <ellipse cx="180" cy="140" rx="220" ry="140" fill="#7b2ff7" opacity="0.08"/>
+    <ellipse cx="720" cy="140" rx="200" ry="130" fill="#00d4ff" opacity="0.07"/>
+    <ellipse cx="450" cy="60" rx="300" ry="80" fill="#a855f7" opacity="0.05"/>
+
+    <!-- Neural network dots - left cluster -->
+    <circle cx="60" cy="80" r="2.5" fill="#00d4ff" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="110" cy="60" r="2" fill="#7b2ff7" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="130" r="3" fill="#00d4ff" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="100" r="2" fill="#a855f7" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="55" cy="170" r="2" fill="#7b2ff7" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="185" r="2.5" fill="#00d4ff" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="155" r="2" fill="#a855f7" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="75" cy="230" r="1.5" fill="#00d4ff" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="145" cy="240" r="2" fill="#7b2ff7" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Neural network lines - left -->
+    <line x1="60" y1="80" x2="110" y2="60" stroke="#00d4ff" stroke-width="0.6" opacity="0.3"/>
+    <line x1="60" y1="80" x2="90" y2="130" stroke="#7b2ff7" stroke-width="0.6" opacity="0.3"/>
+    <line x1="110" y1="60" x2="140" y2="100" stroke="#a855f7" stroke-width="0.6" opacity="0.25"/>
+    <line x1="90" y1="130" x2="140" y2="100" stroke="#00d4ff" stroke-width="0.6" opacity="0.25"/>
+    <line x1="90" y1="130" x2="120" y2="185" stroke="#7b2ff7" stroke-width="0.6" opacity="0.3"/>
+    <line x1="140" y1="100" x2="160" y2="155" stroke="#a855f7" stroke-width="0.6" opacity="0.25"/>
+    <line x1="120" y1="185" x2="160" y2="155" stroke="#00d4ff" stroke-width="0.6" opacity="0.25"/>
+    <line x1="55" y1="170" x2="75" y2="230" stroke="#7b2ff7" stroke-width="0.6" opacity="0.25"/>
+    <line x1="120" y1="185" x2="145" y2="240" stroke="#a855f7" stroke-width="0.6" opacity="0.2"/>
+
+    <!-- Neural network dots - right cluster -->
+    <circle cx="820" cy="75" r="2.5" fill="#a855f7" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="770" cy="55" r="2" fill="#00d4ff" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="845" cy="140" r="3" fill="#7b2ff7" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="790" cy="110" r="2" fill="#00d4ff" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="835" cy="195" r="2" fill="#a855f7" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="180" r="2.5" fill="#7b2ff7" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="225" r="2" fill="#00d4ff" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Neural network lines - right -->
+    <line x1="820" y1="75" x2="770" y2="55" stroke="#a855f7" stroke-width="0.6" opacity="0.3"/>
+    <line x1="820" y1="75" x2="845" y2="140" stroke="#00d4ff" stroke-width="0.6" opacity="0.25"/>
+    <line x1="770" y1="55" x2="790" y2="110" stroke="#7b2ff7" stroke-width="0.6" opacity="0.3"/>
+    <line x1="845" y1="140" x2="790" y2="110" stroke="#a855f7" stroke-width="0.6" opacity="0.25"/>
+    <line x1="845" y1="140" x2="835" y2="195" stroke="#00d4ff" stroke-width="0.6" opacity="0.3"/>
+    <line x1="790" y1="110" x2="760" y2="180" stroke="#7b2ff7" stroke-width="0.6" opacity="0.25"/>
+    <line x1="835" y1="195" x2="800" y2="225" stroke="#a855f7" stroke-width="0.6" opacity="0.25"/>
+    <line x1="760" y1="180" x2="800" y2="225" stroke="#00d4ff" stroke-width="0.6" opacity="0.2"/>
+
+    <!-- Top neon line -->
+    <rect x="0" y="0" width="900" height="1.5" fill="url(#neonBlue)" opacity="0.6"/>
+    <!-- Bottom neon line -->
+    <rect x="0" y="278" width="900" height="1.5" fill="url(#purpleGlow)" opacity="0.6"/>
+
+    <!-- AI status dot -->
+    <circle cx="450" cy="42" r="4" fill="#00d4ff" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="462" y="46" font-family="'Courier New', monospace" font-size="10" fill="#00d4ff" opacity="0.8">AI_SYSTEM.ONLINE</text>
+
+    <!-- Main name text -->
+    <text x="450" y="118" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-size="52" font-weight="900" fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="2">VAIBHAV GURJAR</text>
+
+    <!-- Subtitle line -->
+    <rect x="280" y="128" width="340" height="1" fill="url(#neonBlue)" opacity="0.5"/>
+
+    <!-- Role text -->
+    <text x="450" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="url(#textGrad)" letter-spacing="8" opacity="0.9">AI  ENGINEER  &amp;  BUILDER</text>
+
+    <!-- Tagline -->
+    <text x="450" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8892a4" letter-spacing="1">Crafting Intelligent Systems · Machine Learning · Full Stack</text>
+
+    <!-- Corner brackets - top left -->
+    <path d="M 30 20 L 30 40 L 50 40" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+    <!-- Corner brackets - top right -->
+    <path d="M 870 20 L 870 40 L 850 40" fill="none" stroke="#7b2ff7" stroke-width="1.5" opacity="0.6"/>
+    <!-- Corner brackets - bottom left -->
+    <path d="M 30 260 L 30 240 L 50 240" fill="none" stroke="#7b2ff7" stroke-width="1.5" opacity="0.6"/>
+    <!-- Corner brackets - bottom right -->
+    <path d="M 870 260 L 870 240 L 850 240" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Bottom accent dots -->
+    <circle cx="370" cy="228" r="2" fill="#00d4ff" opacity="0.5"/>
+    <circle cx="390" cy="228" r="2" fill="#a855f7" opacity="0.5"/>
+    <circle cx="410" cy="228" r="2" fill="#7b2ff7" opacity="0.5"/>
+    <circle cx="450" cy="228" r="3" fill="#00d4ff" opacity="0.7">
+      <animate attributeName="r" values="3;4;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="490" cy="228" r="2" fill="#7b2ff7" opacity="0.5"/>
+    <circle cx="510" cy="228" r="2" fill="#a855f7" opacity="0.5"/>
+    <circle cx="530" cy="228" r="2" fill="#00d4ff" opacity="0.5"/>
+  </g>
+
+  <!-- Outer border -->
+  <rect x="0.5" y="0.5" width="899" height="279" rx="15.5" fill="none" stroke="#ffffff12" stroke-width="1"/>
+</svg>

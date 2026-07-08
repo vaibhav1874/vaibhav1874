@@ -1,0 +1,196 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="roadBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#04040e"/>
+      <stop offset="100%" style="stop-color:#08081a"/>
+    </linearGradient>
+    <linearGradient id="pathGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="50%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#7b2ff7"/>
+    </linearGradient>
+    <filter id="nodeGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="lineGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Status colors -->
+    <!-- Intermediate = cyan, Building = purple, Learning = yellow, Exploring = orange, Planned = gray -->
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" fill="url(#roadBg)"/>
+
+  <!-- Title -->
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="4">ML JOURNEY</text>
+  <rect x="360" y="50" width="180" height="1" fill="url(#pathGrad)" opacity="0.6"/>
+
+  <!-- Path line (horizontal snake) -->
+  <!-- Row 1: nodes 1-5 left to right -->
+  <path d="M 80,110 L 790,110" stroke="url(#pathGrad)" stroke-width="2" fill="none" opacity="0.4" filter="url(#lineGlow)"/>
+  <!-- Connector row 1 to row 2 -->
+  <path d="M 790,110 Q 820,110 820,140 L 820,210 Q 820,240 790,240" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.4" filter="url(#lineGlow)"/>
+  <!-- Row 2: nodes 6-10 right to left -->
+  <path d="M 790,240 L 80,240" stroke="url(#pathGrad)" stroke-width="2" fill="none" opacity="0.4" filter="url(#lineGlow)"/>
+  <!-- Connector row 2 to row 3 -->
+  <path d="M 80,240 Q 50,240 50,270 L 50,340 Q 50,370 80,370" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.4" filter="url(#lineGlow)"/>
+  <!-- Row 3: nodes 11-15 left to right -->
+  <path d="M 80,370 L 650,370" stroke="url(#pathGrad)" stroke-width="2" fill="none" opacity="0.4" filter="url(#lineGlow)"/>
+
+  <!-- ROW 1 ─────────────────────────────────────────────── -->
+
+  <!-- Node 1: Python -->
+  <circle cx="80" cy="110" r="22" fill="#00d4ff" opacity="0.15"/>
+  <circle cx="80" cy="110" r="16" fill="#00d4ff" opacity="0.25"/>
+  <circle cx="80" cy="110" r="10" fill="#00d4ff" filter="url(#nodeGlow)"/>
+  <text x="80" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#00d4ff">Python</text>
+  <rect x="48" y="126" width="64" height="16" rx="8" fill="#00d4ff20"/>
+  <text x="80" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#00d4ff">Intermediate</text>
+
+  <!-- Node 2: Pandas -->
+  <circle cx="222" cy="110" r="22" fill="#00d4ff" opacity="0.12"/>
+  <circle cx="222" cy="110" r="16" fill="#00d4ff" opacity="0.2"/>
+  <circle cx="222" cy="110" r="10" fill="#00d4ff" opacity="0.8" filter="url(#nodeGlow)"/>
+  <text x="222" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#00d4ff">Pandas</text>
+  <rect x="190" y="126" width="64" height="16" rx="8" fill="#00d4ff20"/>
+  <text x="222" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#00d4ff">Intermediate</text>
+
+  <!-- Node 3: NumPy -->
+  <circle cx="364" cy="110" r="22" fill="#a855f7" opacity="0.12"/>
+  <circle cx="364" cy="110" r="16" fill="#a855f7" opacity="0.2"/>
+  <circle cx="364" cy="110" r="10" fill="#a855f7" opacity="0.8" filter="url(#nodeGlow)"/>
+  <text x="364" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#a855f7">NumPy</text>
+  <rect x="332" y="126" width="64" height="16" rx="8" fill="#a855f720"/>
+  <text x="364" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a855f7">Intermediate</text>
+
+  <!-- Node 4: Matplotlib -->
+  <circle cx="506" cy="110" r="22" fill="#a855f7" opacity="0.12"/>
+  <circle cx="506" cy="110" r="16" fill="#a855f7" opacity="0.2"/>
+  <circle cx="506" cy="110" r="10" fill="#a855f7" opacity="0.8" filter="url(#nodeGlow)"/>
+  <text x="506" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#a855f7">Matplotlib</text>
+  <rect x="462" y="126" width="88" height="16" rx="8" fill="#a855f720"/>
+  <text x="506" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a855f7">Learning</text>
+
+  <!-- Node 5: Statistics -->
+  <circle cx="648" cy="110" r="22" fill="#f59e0b" opacity="0.12"/>
+  <circle cx="648" cy="110" r="16" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="648" cy="110" r="10" fill="#f59e0b" opacity="0.8" filter="url(#nodeGlow)"/>
+  <text x="648" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#f59e0b">Statistics</text>
+  <rect x="610" y="126" width="76" height="16" rx="8" fill="#f59e0b20"/>
+  <text x="648" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Learning</text>
+
+  <!-- Node 6 (connector): Scikit-Learn -->
+  <circle cx="790" cy="110" r="22" fill="#f59e0b" opacity="0.12"/>
+  <circle cx="790" cy="110" r="16" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="790" cy="110" r="10" fill="#f59e0b" opacity="0.8" filter="url(#nodeGlow)"/>
+  <text x="790" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#f59e0b">Scikit-Learn</text>
+  <rect x="752" y="126" width="76" height="16" rx="8" fill="#f59e0b20"/>
+  <text x="790" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Learning</text>
+
+  <!-- ROW 2 ─────────────────────────────────────────────── -->
+
+  <!-- Node 7: Machine Learning -->
+  <circle cx="790" cy="240" r="22" fill="#7b2ff7" opacity="0.15"/>
+  <circle cx="790" cy="240" r="16" fill="#7b2ff7" opacity="0.25"/>
+  <circle cx="790" cy="240" r="10" fill="#7b2ff7" filter="url(#nodeGlow)"/>
+  <text x="790" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#7b2ff7">ML</text>
+  <rect x="754" y="256" width="72" height="16" rx="8" fill="#7b2ff720"/>
+  <text x="790" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7b2ff7">Building</text>
+
+  <!-- Node 8: TensorFlow -->
+  <circle cx="648" cy="240" r="22" fill="#7b2ff7" opacity="0.12"/>
+  <circle cx="648" cy="240" r="16" fill="#7b2ff7" opacity="0.2"/>
+  <circle cx="648" cy="240" r="10" fill="#7b2ff7" opacity="0.8" filter="url(#nodeGlow)"/>
+  <text x="648" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#7b2ff7">TensorFlow</text>
+  <rect x="607" y="256" width="82" height="16" rx="8" fill="#7b2ff720"/>
+  <text x="648" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7b2ff7">Learning</text>
+
+  <!-- Node 9: PyTorch -->
+  <circle cx="506" cy="240" r="22" fill="#f59e0b" opacity="0.12"/>
+  <circle cx="506" cy="240" r="16" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="506" cy="240" r="10" fill="#f59e0b" opacity="0.8" filter="url(#nodeGlow)"/>
+  <text x="506" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#f59e0b">PyTorch</text>
+  <rect x="466" y="256" width="80" height="16" rx="8" fill="#f59e0b20"/>
+  <text x="506" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Learning</text>
+
+  <!-- Node 10: Deep Learning -->
+  <circle cx="364" cy="240" r="22" fill="#ef4444" opacity="0.12"/>
+  <circle cx="364" cy="240" r="16" fill="#ef4444" opacity="0.2"/>
+  <circle cx="364" cy="240" r="10" fill="#ef4444" opacity="0.7" filter="url(#nodeGlow)"/>
+  <text x="364" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#ef4444">Deep Learning</text>
+  <rect x="318" y="256" width="92" height="16" rx="8" fill="#ef444420"/>
+  <text x="364" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">Exploring</text>
+
+  <!-- Node 11 (end of row 2): Computer Vision -->
+  <circle cx="222" cy="240" r="22" fill="#6b7280" opacity="0.12"/>
+  <circle cx="222" cy="240" r="16" fill="#6b7280" opacity="0.2"/>
+  <circle cx="222" cy="240" r="10" fill="#6b7280" opacity="0.6" filter="url(#nodeGlow)"/>
+  <text x="222" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">Computer Vision</text>
+  <rect x="172" y="256" width="100" height="16" rx="8" fill="#6b728020"/>
+  <text x="222" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Exploring</text>
+
+  <!-- Connector start of row 3 -->
+  <circle cx="80" cy="240" r="22" fill="#6b7280" opacity="0.12"/>
+  <circle cx="80" cy="240" r="16" fill="#6b7280" opacity="0.2"/>
+  <circle cx="80" cy="240" r="10" fill="#6b7280" opacity="0.6" filter="url(#nodeGlow)"/>
+  <text x="80" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">NLP</text>
+  <rect x="50" y="256" width="60" height="16" rx="8" fill="#6b728020"/>
+  <text x="80" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Exploring</text>
+
+  <!-- ROW 3 ─────────────────────────────────────────────── -->
+
+  <!-- Node: Gen AI -->
+  <circle cx="80" cy="370" r="22" fill="#6b7280" opacity="0.08"/>
+  <circle cx="80" cy="370" r="16" fill="#6b7280" opacity="0.12"/>
+  <circle cx="80" cy="370" r="10" fill="#6b7280" opacity="0.4"/>
+  <text x="80" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">GenAI</text>
+  <rect x="45" y="386" width="70" height="16" rx="8" fill="#6b728015"/>
+  <text x="80" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Planned</text>
+
+  <!-- Node: LLMs -->
+  <circle cx="222" cy="370" r="22" fill="#6b7280" opacity="0.08"/>
+  <circle cx="222" cy="370" r="16" fill="#6b7280" opacity="0.12"/>
+  <circle cx="222" cy="370" r="10" fill="#6b7280" opacity="0.4"/>
+  <text x="222" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">LLMs</text>
+  <rect x="192" y="386" width="60" height="16" rx="8" fill="#6b728015"/>
+  <text x="222" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Planned</text>
+
+  <!-- Node: AI Agents -->
+  <circle cx="364" cy="370" r="22" fill="#6b7280" opacity="0.08"/>
+  <circle cx="364" cy="370" r="16" fill="#6b7280" opacity="0.12"/>
+  <circle cx="364" cy="370" r="10" fill="#6b7280" opacity="0.4"/>
+  <text x="364" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">AI Agents</text>
+  <rect x="322" y="386" width="84" height="16" rx="8" fill="#6b728015"/>
+  <text x="364" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Planned</text>
+
+  <!-- Node: MLOps -->
+  <circle cx="506" cy="370" r="22" fill="#6b7280" opacity="0.08"/>
+  <circle cx="506" cy="370" r="16" fill="#6b7280" opacity="0.12"/>
+  <circle cx="506" cy="370" r="10" fill="#6b7280" opacity="0.4"/>
+  <text x="506" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">MLOps</text>
+  <rect x="470" y="386" width="72" height="16" rx="8" fill="#6b728015"/>
+  <text x="506" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Planned</text>
+
+  <!-- Node: Research -->
+  <circle cx="648" cy="370" r="22" fill="#6b7280" opacity="0.08"/>
+  <circle cx="648" cy="370" r="16" fill="#6b7280" opacity="0.12"/>
+  <circle cx="648" cy="370" r="10" fill="#6b7280" opacity="0.4"/>
+  <text x="648" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b7280">Research</text>
+  <rect x="610" y="386" width="76" height="16" rx="8" fill="#6b728015"/>
+  <text x="648" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Planned</text>
+
+  <!-- Legend -->
+  <rect x="40" y="445" width="12" height="12" rx="6" fill="#00d4ff"/>
+  <text x="58" y="455" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Intermediate</text>
+  <rect x="170" y="445" width="12" height="12" rx="6" fill="#a855f7"/>
+  <text x="188" y="455" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Building</text>
+  <rect x="280" y="445" width="12" height="12" rx="6" fill="#f59e0b"/>
+  <text x="298" y="455" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Learning</text>
+  <rect x="385" y="445" width="12" height="12" rx="6" fill="#ef4444"/>
+  <text x="403" y="455" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Exploring</text>
+  <rect x="490" y="445" width="12" height="12" rx="6" fill="#6b7280"/>
+  <text x="508" y="455" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Planned</text>
+</svg>

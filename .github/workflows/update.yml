@@ -1,0 +1,47 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # Every 6 hours
+  workflow_dispatch:           # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update profile metadata
+        run: |
+          python3 - <<'EOF'
+          import json
+          from datetime import datetime, timezone
+
+          with open("profile.json", "r") as f:
+              profile = json.load(f)
+
+          profile["lastUpdated"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+          with open("profile.json", "w") as f:
+              json.dump(profile, f, indent=2)
+
+          print(f"Updated profile.json with timestamp: {profile['lastUpdated']}")
+          EOF
+
+      - name: Commit updated profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile.json
+          git diff --staged --quiet || git commit -m "chore: auto-update profile stats [skip ci]"
+          git push

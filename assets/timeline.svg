@@ -1,0 +1,92 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tlBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#06060f"/>
+      <stop offset="100%" style="stop-color:#0a0a1e"/>
+    </linearGradient>
+    <linearGradient id="timelineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#7b2ff7"/>
+    </linearGradient>
+    <filter id="tlGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L8,4 Z" fill="#7b2ff7" opacity="0.8"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="360" fill="url(#tlBg)"/>
+
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="4">CAREER TIMELINE</text>
+  <rect x="370" y="48" width="160" height="1" fill="url(#timelineGrad)" opacity="0.7"/>
+
+  <!-- Vertical timeline line -->
+  <rect x="449" y="70" width="2" height="260" fill="url(#timelineGrad)" opacity="0.4"/>
+  <!-- Animated dot on line -->
+  <circle cx="450" cy="70" r="4" fill="#00d4ff" filter="url(#tlGlow)">
+    <animate attributeName="cy" values="70;330;70" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Arrow at bottom -->
+  <polygon points="446,330 454,330 450,344" fill="#7b2ff7" opacity="0.7"/>
+
+  <!-- Timeline nodes -->
+
+  <!-- Node 1: Learning Programming -->
+  <circle cx="450" cy="90" r="10" fill="#00d4ff" opacity="0.2"/>
+  <circle cx="450" cy="90" r="6" fill="#00d4ff" filter="url(#tlGlow)"/>
+  <!-- Left content -->
+  <rect x="60" y="74" width="340" height="32" rx="8" fill="#00d4ff10"/>
+  <rect x="60" y="74" width="2" height="32" rx="1" fill="#00d4ff" opacity="0.7"/>
+  <text x="72" y="88" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#00d4ff">Learning Programming</text>
+  <text x="72" y="102" font-family="Arial, sans-serif" font-size="10" fill="#64748b">C++ · Python · Data Structures · Algorithms</text>
+  <!-- Right connector -->
+  <line x1="400" y1="90" x2="440" y2="90" stroke="#00d4ff" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- Node 2: AI & ML Introduction -->
+  <circle cx="450" cy="155" r="10" fill="#a855f7" opacity="0.2"/>
+  <circle cx="450" cy="155" r="6" fill="#a855f7" filter="url(#tlGlow)"/>
+  <!-- Right content -->
+  <rect x="500" y="139" width="340" height="32" rx="8" fill="#a855f710"/>
+  <rect x="838" y="139" width="2" height="32" rx="1" fill="#a855f7" opacity="0.7"/>
+  <text x="512" y="153" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#a855f7">Discovered AI &amp; ML</text>
+  <text x="512" y="167" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Pandas · NumPy · Scikit-Learn · TensorFlow</text>
+  <!-- Left connector -->
+  <line x1="460" y1="155" x2="500" y2="155" stroke="#a855f7" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- Node 3: Full Stack -->
+  <circle cx="450" cy="220" r="10" fill="#7b2ff7" opacity="0.2"/>
+  <circle cx="450" cy="220" r="6" fill="#7b2ff7" filter="url(#tlGlow)"/>
+  <!-- Left content -->
+  <rect x="60" y="204" width="340" height="32" rx="8" fill="#7b2ff710"/>
+  <rect x="60" y="204" width="2" height="32" rx="1" fill="#7b2ff7" opacity="0.7"/>
+  <text x="72" y="218" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#7b2ff7">Full Stack Development</text>
+  <text x="72" y="232" font-family="Arial, sans-serif" font-size="10" fill="#64748b">React · Next.js · FastAPI · Node.js · MongoDB</text>
+  <!-- Right connector -->
+  <line x1="400" y1="220" x2="440" y2="220" stroke="#7b2ff7" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- Node 4: Open Source & Building -->
+  <circle cx="450" cy="285" r="10" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="450" cy="285" r="6" fill="#f59e0b" filter="url(#tlGlow)"/>
+  <!-- Right content -->
+  <rect x="500" y="269" width="340" height="32" rx="8" fill="#f59e0b10"/>
+  <rect x="838" y="269" width="2" height="32" rx="1" fill="#f59e0b" opacity="0.7"/>
+  <text x="512" y="283" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#f59e0b">Building Products</text>
+  <text x="512" y="297" font-family="Arial, sans-serif" font-size="10" fill="#64748b">AI Systems · Open Source · Real-World Apps</text>
+  <!-- Left connector -->
+  <line x1="460" y1="285" x2="500" y2="285" stroke="#f59e0b" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- Node 5: Future -->
+  <circle cx="450" cy="330" r="12" fill="#4ade80" opacity="0.15"/>
+  <circle cx="450" cy="330" r="8" fill="#4ade80" opacity="0.3"/>
+  <circle cx="450" cy="330" r="4" fill="#4ade80" filter="url(#tlGlow)">
+    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="470" y="334" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#4ade80">→ Building the Future with AI</text>
+</svg>

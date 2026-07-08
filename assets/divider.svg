@@ -1,0 +1,33 @@
+<svg width="900" height="60" viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#00d4ff;stop-opacity:0.7"/>
+      <stop offset="50%" style="stop-color:#a855f7;stop-opacity:1"/>
+      <stop offset="80%" style="stop-color:#7b2ff7;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="divGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#7b2ff7;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.5"/>
+      <stop offset="70%" style="stop-color:#7b2ff7;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <!-- Glow line -->
+  <rect x="0" y="28" width="900" height="3" fill="url(#divGrad2)" filter="url(#blur)"/>
+  <!-- Main line -->
+  <rect x="0" y="29.5" width="900" height="1" fill="url(#divGrad)"/>
+  <!-- Center diamond -->
+  <polygon points="450,22 456,30 450,38 444,30" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.8"/>
+  <polygon points="450,25 453,30 450,35 447,30" fill="#a855f7" opacity="0.4"/>
+  <!-- Side dots -->
+  <circle cx="380" cy="30" r="1.5" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="520" cy="30" r="1.5" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="340" cy="30" r="1" fill="#7b2ff7" opacity="0.5"/>
+  <circle cx="560" cy="30" r="1" fill="#7b2ff7" opacity="0.5"/>
+</svg>
