@@ -3,108 +3,108 @@
 
 <div align="center">
 
-### AI Engineer • Full Stack Developer • Founder of BattleVerse
+# 🚀 AI Engineer • Founder • Full Stack Developer
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=AI+Engineer;Machine+Learning+Enthusiast;Founder+of+BattleVerse;Building+AI+Products;Python+%7C+FastAPI+%7C+Next.js;Always+Learning+Something+New" />
+> Building AI products that solve real-world problems.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,100:2563eb&text=Welcome%20to%20My%20GitHub&fontColor=ffffff&fontAlignY=35"/>
-
-![](https://komarev.com/ghpvc/?username=vaibhav1874&style=for-the-badge)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&size=24&pause=1000&center=true&width=700&lines=AI+Engineer;Founder+of+BattleVerse;Building+TrustIQ;Developing+Ally+AI;Learning+Machine+Learning;Open+Source+Enthusiast)
 
 </div>
 
 ---
 
-# 🚀 About Me
+# 🧠 About Me
 
 ```yaml
 Name: Vaibhav Gurjar
-Role: AI Engineer | Founder
 
 Education:
-  - B.Tech CSE (AI & Data Science)
+  B.Tech CSE (AI & Data Science)
   
 
-Founder:
-  - BattleVerse
-
-Current Projects:
-  - TrustIQ
-  - MoneyMitra AI
-  - Ally AI Assistant
-
-Learning:
+Currently Learning:
+  - Python
   - Pandas
   - NumPy
   - Matplotlib
-  - Scikit-learn
+  - Scikit-Learn
   - TensorFlow
   - PyTorch
   - LLMs
   - RAG
+
+Founder:
+  - BattleVerse
+
+Building:
+  - TrustIQ
+  - MoneyMitra AI
+  - Ally AI
 ```
 
 ---
 
-# 🛠 Tech Stack
+# 🚀 Current Mission
+
+| Goal | Status |
+|------|--------|
+| Master Machine Learning | 🟢 |
+| Build AI Projects | 🟢 |
+| Launch Ally AI | 🟡 |
+| Grow BattleVerse | 🟢 |
+| Open Source Contributions | 🟡 |
+
+---
+
+# 🛠 Tech Arsenal
 
 ## Languages
 
-[![My Skills](https://skillicons.dev/icons?i=python,cpp,java,js,ts,html,css,sql)](https://skillicons.dev)
+![Skills](https://skillicons.dev/icons?i=python,cpp,java,js,html,css,sql)
 
-## AI / ML
+## AI & ML
 
 - Pandas
 - NumPy
 - Matplotlib
-- Scikit-learn
+- Scikit-Learn
 - TensorFlow
 - PyTorch
 - OpenCV
-- Hugging Face
 - LangChain
-- RAG
+- Hugging Face
 
-## Web Development
+## Web
 
-[![My Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,fastapi,firebase,mongodb)](https://skillicons.dev)
+![Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,fastapi,firebase,mongodb)
 
 ## Tools
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,vscode,figma,postman,vercel,render)](https://skillicons.dev)
+![Skills](https://skillicons.dev/icons?i=git,github,vscode,figma,postman,vercel)
 
 ---
 
-# 📚 ML Learning Roadmap
+# 📈 Machine Learning Roadmap
 
-| Technology | Status |
-|------------|--------|
-| Python | ✅ |
-| Pandas | 🟢 |
-| NumPy | 🟢 |
-| Matplotlib | 🟢 |
-| Scikit-learn | 🟡 |
-| Machine Learning | 🟡 |
-| Deep Learning | 🔵 |
-| NLP | 🔵 |
-| Computer Vision | 🔵 |
-| LLMs | 🟠 |
+| Technology | Progress |
+|------------|----------|
+| Python | ██████████ 95% |
+| Pandas | ████████░░ 80% |
+| NumPy | ███████░░░ 70% |
+| Statistics | ██████░░░░ 60% |
+| Machine Learning | ██████░░░░ 60% |
+| Deep Learning | ███░░░░░░░ 30% |
+| NLP | ██░░░░░░░░ 20% |
+| LLMs | ████░░░░░░ 40% |
 
 ---
 
 # 🌟 Featured Projects
 
-## 🤖 TrustIQ
-AI-powered fake news & deepfake detection.
-
-## 💰 MoneyMitra AI
-AI-powered personal finance assistant.
-
-## 🤖 Ally
-Your own intelligent AI assistant.
-
-## 🎤 BattleVerse
-Underground Hip-Hop platform empowering upcoming artists.
+- 🤖 TrustIQ — AI Fake News & Deepfake Detector
+- 💰 MoneyMitra AI — AI Finance Assistant
+- 🤖 Ally — Personal AI Assistant
+- 🎤 BattleVerse — Underground Hip-Hop Platform
 
 ---
 
@@ -125,55 +125,26 @@ Underground Hip-Hop platform empowering upcoming artists.
 
 ---
 
-# 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=vaibhav1874&theme=tokyonight&column=4"/>
-</p>
-
----
-
-# 🎯 2026 Goals
-
-- Master Machine Learning
-- Learn Deep Learning
-- Build Production AI Systems
-- Grow BattleVerse
-- Launch Ally AI
-- Contribute to Open Source
-
----
-
-# 💭 Philosophy
-
-> **Build. Learn. Improve. Repeat.**
+# 💭 Code Philosophy
 
 ```python
 while True:
     learn()
     build()
     improve()
+    repeat()
 ```
+
+> "Build today. Learn forever."
 
 ---
 
 # 🌐 Connect
 
-- 💼 LinkedIn: [www.linkedin.com/in/vaibhavgurjar]
-- 📧 Email:[vaibhavgurjar900@gmail.com]
-- 🐙 GitHub: [https://github.com/vaibhav1874]
-
----
-
-# 🐍 Contribution Snake
-
-> Enable this later using GitHub Actions.
-
-```yaml
-.github/workflows/snake.yml
-```
+- GitHub: https://github.com/vaibhav1874
+- LinkedIn: [www.linkedin.com/in/vaibhavgurjar]
+- Email: [vaibhavgurjar900@gmail.com]
 
 ---
 
 ⭐ Thanks for visiting my profile!
-# vaibhav1874
