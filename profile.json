@@ -23,13 +23,58 @@
     "Open Source"
   ],
   "techStack": {
-    "languages": ["Python", "JavaScript", "TypeScript", "C++", "Java", "HTML", "CSS", "SQL"],
-    "ai_ml": ["Pandas", "NumPy", "Matplotlib", "Scikit-Learn", "TensorFlow", "PyTorch", "OpenCV", "LangChain", "Hugging Face"],
-    "frontend": ["React", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
-    "backend": ["FastAPI", "Node.js", "Express.js"],
-    "databases": ["MongoDB", "Firebase", "PostgreSQL"],
-    "cloud_tools": ["Git", "GitHub", "VS Code", "Figma", "Postman", "Vercel", "Render"],
-    "design": ["Figma", "SVG", "CSS Animations"]
+    "languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "C++",
+      "Java",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "ai_ml": [
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Scikit-Learn",
+      "TensorFlow",
+      "PyTorch",
+      "OpenCV",
+      "LangChain",
+      "Hugging Face"
+    ],
+    "frontend": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3"
+    ],
+    "backend": [
+      "FastAPI",
+      "Node.js",
+      "Express.js"
+    ],
+    "databases": [
+      "MongoDB",
+      "Firebase",
+      "PostgreSQL"
+    ],
+    "cloud_tools": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Figma",
+      "Postman",
+      "Vercel",
+      "Render"
+    ],
+    "design": [
+      "Figma",
+      "SVG",
+      "CSS Animations"
+    ]
   },
   "mlJourney": {
     "Python": "Intermediate",
