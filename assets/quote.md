@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The most powerful tool we have as developers is automation."
+> "Any sufficiently advanced technology is indistinguishable from magic."
 >
-> — **Scott Hanselman**
+> — **Arthur C. Clarke**
