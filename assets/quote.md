@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Any sufficiently advanced technology is indistinguishable from magic."
+> "We are at the beginning of a new era in computing, where intelligence is ubiquitous."
 >
-> — **Arthur C. Clarke**
+> — **Jensen Huang**
