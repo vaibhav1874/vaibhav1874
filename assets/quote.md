@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "We are at the beginning of a new era in computing, where intelligence is ubiquitous."
+> "Don't watch the clock; do what it does. Keep going."
 >
-> — **Jensen Huang**
+> — **Sam Levenson**
