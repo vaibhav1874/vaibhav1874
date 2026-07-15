@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Data is the new oil. AI is the new electricity."
+> "Success is the sum of small efforts, repeated day in and day out."
 >
-> — **Andrew Ng**
+> — **Robert Collier**
