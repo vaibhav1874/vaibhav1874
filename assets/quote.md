@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Success is the sum of small efforts, repeated day in and day out."
+> "Intelligence is the ability to adapt to change."
 >
-> — **Robert Collier**
+> — **Stephen Hawking**
