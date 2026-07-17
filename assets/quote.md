@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Intelligence is the ability to adapt to change."
+> "The more I learn, the more I realize how much I don't know."
 >
-> — **Stephen Hawking**
+> — **Albert Einstein**
