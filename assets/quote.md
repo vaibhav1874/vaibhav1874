@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "It always seems impossible until it's done."
+> "Consistency beats talent when talent isn't consistent."
 >
-> — **Nelson Mandela**
+> — **Unknown**
