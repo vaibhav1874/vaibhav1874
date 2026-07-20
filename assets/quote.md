@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Consistency beats talent when talent isn't consistent."
+> "Every great developer you know got there by solving problems they were unqualified to solve until they did it."
 >
-> — **Unknown**
+> — **Patrick McKenzie**
