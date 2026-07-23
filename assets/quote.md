@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The secret of getting ahead is getting started."
+> "Engineering is not only study of 45 subjects but it is moral studies of intellectual life."
 >
-> — **Mark Twain**
+> — **Prakhar Srivastav**
