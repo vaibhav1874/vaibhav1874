@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Engineering is not only study of 45 subjects but it is moral studies of intellectual life."
+> "First, solve the problem. Then, write the code."
 >
-> — **Prakhar Srivastav**
+> — **John Johnson**
