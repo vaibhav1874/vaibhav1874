@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The only way to do great work is to love what you do."
+> "We are at the beginning of a new era in computing, where intelligence is ubiquitous."
 >
-> — **Steve Jobs**
+> — **Jensen Huang**
