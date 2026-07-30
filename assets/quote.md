@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "We are at the beginning of a new era in computing, where intelligence is ubiquitous."
+> "Engineering is not only study of 45 subjects but it is moral studies of intellectual life."
 >
-> — **Jensen Huang**
+> — **Prakhar Srivastav**
