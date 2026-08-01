@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "What you build defines who you become."
+> "A person who never made a mistake never tried anything new."
 >
-> — **Unknown**
+> — **Albert Einstein**
