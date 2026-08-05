@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "What you build defines who you become."
+> "Learning never exhausts the mind."
 >
-> — **Unknown**
+> — **Leonardo da Vinci**
