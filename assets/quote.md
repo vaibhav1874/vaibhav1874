@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The science of today is the technology of tomorrow."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> — **Edward Teller**
+> — **Harold Abelson**
