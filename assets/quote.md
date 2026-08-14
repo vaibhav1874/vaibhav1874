@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Every great developer you know got there by solving problems they were unqualified to solve until they did it."
+> "The science of today is the technology of tomorrow."
 >
-> — **Patrick McKenzie**
+> — **Edward Teller**
