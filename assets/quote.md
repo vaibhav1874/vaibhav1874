@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The science of today is the technology of tomorrow."
+> "The more I learn, the more I realize how much I don't know."
 >
-> — **Edward Teller**
+> — **Albert Einstein**
