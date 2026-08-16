@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The more I learn, the more I realize how much I don't know."
+> "Make it work, make it right, make it fast."
 >
-> — **Albert Einstein**
+> — **Kent Beck**
