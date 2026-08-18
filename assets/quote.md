@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "First, solve the problem. Then, write the code."
+> "The more I learn, the more I realize how much I don't know."
 >
-> — **John Johnson**
+> — **Albert Einstein**
