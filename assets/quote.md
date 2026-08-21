@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Success is the sum of small efforts, repeated day in and day out."
+> "Engineering is not only study of 45 subjects but it is moral studies of intellectual life."
 >
-> — **Robert Collier**
+> — **Prakhar Srivastav**
