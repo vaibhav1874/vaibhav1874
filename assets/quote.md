@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The best way to predict the future is to invent it."
+> "Any sufficiently advanced technology is indistinguishable from magic."
 >
-> — **Alan Kay**
+> — **Arthur C. Clarke**
