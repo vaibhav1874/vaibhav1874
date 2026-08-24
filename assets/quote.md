@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Any sufficiently advanced technology is indistinguishable from magic."
+> "First, solve the problem. Then, write the code."
 >
-> — **Arthur C. Clarke**
+> — **John Johnson**
