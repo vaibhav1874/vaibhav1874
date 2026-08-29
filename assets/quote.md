@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Learning never exhausts the mind."
+> "We are at the beginning of a new era in computing, where intelligence is ubiquitous."
 >
-> — **Leonardo da Vinci**
+> — **Jensen Huang**
