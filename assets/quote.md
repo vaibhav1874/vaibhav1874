@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Talk is cheap. Show me the code."
+> "Learning never exhausts the mind."
 >
-> — **Linus Torvalds**
+> — **Leonardo da Vinci**
