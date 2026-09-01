@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Learning never exhausts the mind."
+> "Engineering is not only study of 45 subjects but it is moral studies of intellectual life."
 >
-> — **Leonardo da Vinci**
+> — **Prakhar Srivastav**
