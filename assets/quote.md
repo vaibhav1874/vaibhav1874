@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Learning never exhausts the mind."
+> "Don't watch the clock; do what it does. Keep going."
 >
-> — **Leonardo da Vinci**
+> — **Sam Levenson**
