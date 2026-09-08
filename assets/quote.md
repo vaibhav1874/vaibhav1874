@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Machines take me by surprise with great frequency."
+> "Intelligence is the ability to adapt to change."
 >
-> — **Alan Turing**
+> — **Stephen Hawking**
