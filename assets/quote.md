@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Intelligence is the ability to adapt to change."
+> "Engineering is not only study of 45 subjects but it is moral studies of intellectual life."
 >
-> — **Stephen Hawking**
+> — **Prakhar Srivastav**
