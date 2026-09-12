@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Any sufficiently advanced technology is indistinguishable from magic."
+> "Data is the new oil. AI is the new electricity."
 >
-> — **Arthur C. Clarke**
+> — **Andrew Ng**
