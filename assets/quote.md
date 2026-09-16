@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The secret of getting ahead is getting started."
+> "The most powerful tool we have as developers is automation."
 >
-> — **Mark Twain**
+> — **Scott Hanselman**
