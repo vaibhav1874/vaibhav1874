@@ -305,12 +305,12 @@
 <br/><br/>
 
 <!-- Contribution graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhav1874&theme=react-dark&bg_color=0d0d1a&color=00d4ff&line=7b2ff7&point=a855f7&area=true&hide_border=true" width="90%" alt="Contribution Graph"/>
+<img src="https://raw.githubusercontent.com/vaibhav1874/vaibhav1874/output/activity-graph.svg" width="90%" alt="Contribution Graph"/>
 
 <br/><br/>
 
 <!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=vaibhav1874&theme=tokyonight&row=1&column=6&no-bg=true&no-frame=true&title_color=a855f7&icon_color=00d4ff" alt="GitHub Trophies"/>
+<img src="https://raw.githubusercontent.com/vaibhav1874/vaibhav1874/output/trophies.svg" alt="GitHub Trophies"/>
 
 <br/><br/>
 
