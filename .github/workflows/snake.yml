@@ -32,7 +32,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
 
       - name: Generate activity graph
-        uses: maurodesouza/github-readme-activity-graph-action@master
+        uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: vaibhav1874
           options: "theme=react-dark&bg_color=0d0d1a&color=00d4ff&line=7b2ff7&point=a855f7&area=true&hide_border=true"
@@ -40,7 +40,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate trophy card
-        uses: soulteary/github-profile-trophy-action@v1.0.0
+        uses: soulteary/github-profile-trophy-action@v1
         with:
           options: "username=vaibhav1874&theme=tokyonight&row=1&column=6&no-bg=true&no-frame=true&title_color=a855f7&icon_color=00d4ff"
           path: dist/trophies.svg
