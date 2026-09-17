@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The most powerful tool we have as developers is automation."
+> "Every great developer you know got there by solving problems they were unqualified to solve until they did it."
 >
-> — **Scott Hanselman**
+> — **Patrick McKenzie**
