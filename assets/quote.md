@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Consistency beats talent when talent isn't consistent."
+> "AI is probably the most important thing humanity has ever worked on."
 >
-> — **Unknown**
+> — **Sundar Pichai**
