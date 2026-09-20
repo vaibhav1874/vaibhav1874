@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "AI is probably the most important thing humanity has ever worked on."
+> "The future belongs to those who learn, build, and ship."
 >
-> — **Sundar Pichai**
+> — **Unknown**
