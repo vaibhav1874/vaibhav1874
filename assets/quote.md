@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Simplicity is the ultimate sophistication."
+> "Build things that matter. Ship things that work. Learn things that last."
 >
-> — **Leonardo da Vinci**
+> — **Unknown**
