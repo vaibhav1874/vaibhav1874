@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "It always seems impossible until it's done."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> — **Nelson Mandela**
+> — **Harold Abelson**
