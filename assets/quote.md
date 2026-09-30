@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "What you build defines who you become."
+> "Data is the new oil. AI is the new electricity."
 >
-> — **Unknown**
+> — **Andrew Ng**
