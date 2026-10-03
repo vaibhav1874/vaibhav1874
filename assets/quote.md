@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The secret of getting ahead is getting started."
+> "Don't watch the clock; do what it does. Keep going."
 >
-> — **Mark Twain**
+> — **Sam Levenson**
