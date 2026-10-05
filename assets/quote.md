@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The secret of getting ahead is getting started."
+> "Intelligence is the ability to adapt to change."
 >
-> — **Mark Twain**
+> — **Stephen Hawking**
