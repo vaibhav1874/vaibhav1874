@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Intelligence is the ability to adapt to change."
+> "Every great developer you know got there by solving problems they were unqualified to solve until they did it."
 >
-> — **Stephen Hawking**
+> — **Patrick McKenzie**
