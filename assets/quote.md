@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Learning never exhausts the mind."
+> "It always seems impossible until it's done."
 >
-> — **Leonardo da Vinci**
+> — **Nelson Mandela**
