@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "It always seems impossible until it's done."
+> "We are at the beginning of a new era in computing, where intelligence is ubiquitous."
 >
-> — **Nelson Mandela**
+> — **Jensen Huang**
