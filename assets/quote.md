@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Engineering is not only study of 45 subjects but it is moral studies of intellectual life."
+> "Any sufficiently advanced technology is indistinguishable from magic."
 >
-> — **Prakhar Srivastav**
+> — **Arthur C. Clarke**
