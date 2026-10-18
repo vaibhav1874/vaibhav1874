@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Talk is cheap. Show me the code."
+> "Any sufficiently advanced technology is indistinguishable from magic."
 >
-> — **Linus Torvalds**
+> — **Arthur C. Clarke**
