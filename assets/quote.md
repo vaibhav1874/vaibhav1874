@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The more I learn, the more I realize how much I don't know."
+> "The most powerful tool we have as developers is automation."
 >
-> — **Albert Einstein**
+> — **Scott Hanselman**
