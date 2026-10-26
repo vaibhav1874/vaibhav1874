@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Any sufficiently advanced technology is indistinguishable from magic."
+> "The more I learn, the more I realize how much I don't know."
 >
-> — **Arthur C. Clarke**
+> — **Albert Einstein**
