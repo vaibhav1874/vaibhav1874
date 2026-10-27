@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The more I learn, the more I realize how much I don't know."
+> "Programs must be written for people to read, and only incidentally for machines to execute."
 >
-> — **Albert Einstein**
+> — **Harold Abelson**
