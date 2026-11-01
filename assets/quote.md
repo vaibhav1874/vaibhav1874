@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The secret of getting ahead is getting started."
+> "What you build defines who you become."
 >
-> — **Mark Twain**
+> — **Unknown**
