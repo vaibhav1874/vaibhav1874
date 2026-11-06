@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "What you build defines who you become."
+> "The science of today is the technology of tomorrow."
 >
-> — **Unknown**
+> — **Edward Teller**
