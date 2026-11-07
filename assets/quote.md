@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The science of today is the technology of tomorrow."
+> "Make it work, make it right, make it fast."
 >
-> — **Edward Teller**
+> — **Kent Beck**
