@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Make it work, make it right, make it fast."
+> "Don't watch the clock; do what it does. Keep going."
 >
-> — **Kent Beck**
+> — **Sam Levenson**
