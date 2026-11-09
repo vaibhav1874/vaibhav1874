@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Don't watch the clock; do what it does. Keep going."
+> "The science of today is the technology of tomorrow."
 >
-> — **Sam Levenson**
+> — **Edward Teller**
