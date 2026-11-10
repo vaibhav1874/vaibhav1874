@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The science of today is the technology of tomorrow."
+> "It always seems impossible until it's done."
 >
-> — **Edward Teller**
+> — **Nelson Mandela**
