@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "It always seems impossible until it's done."
+> "Build things that matter. Ship things that work. Learn things that last."
 >
-> — **Nelson Mandela**
+> — **Unknown**
