@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Build things that matter. Ship things that work. Learn things that last."
+> "Any sufficiently advanced technology is indistinguishable from magic."
 >
-> — **Unknown**
+> — **Arthur C. Clarke**
