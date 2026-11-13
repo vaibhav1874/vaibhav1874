@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Any sufficiently advanced technology is indistinguishable from magic."
+> "Intelligence is the ability to adapt to change."
 >
-> — **Arthur C. Clarke**
+> — **Stephen Hawking**
