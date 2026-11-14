@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Intelligence is the ability to adapt to change."
+> "Code is like humor. When you have to explain it, it's bad."
 >
-> — **Stephen Hawking**
+> — **Cory House**
