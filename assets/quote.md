@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Code is like humor. When you have to explain it, it's bad."
+> "The most powerful tool we have as developers is automation."
 >
-> — **Cory House**
+> — **Scott Hanselman**
