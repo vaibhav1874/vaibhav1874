@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The most powerful tool we have as developers is automation."
+> "The future belongs to those who learn, build, and ship."
 >
-> — **Scott Hanselman**
+> — **Unknown**
