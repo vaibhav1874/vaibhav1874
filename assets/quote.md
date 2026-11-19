@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The science of today is the technology of tomorrow."
+> "The future belongs to those who learn, build, and ship."
 >
-> — **Edward Teller**
+> — **Unknown**
