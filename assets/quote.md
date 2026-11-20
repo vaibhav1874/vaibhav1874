@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The future belongs to those who learn, build, and ship."
+> "Make it work, make it right, make it fast."
 >
-> — **Unknown**
+> — **Kent Beck**
