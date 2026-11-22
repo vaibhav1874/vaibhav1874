@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "It always seems impossible until it's done."
+> "The most powerful tool we have as developers is automation."
 >
-> — **Nelson Mandela**
+> — **Scott Hanselman**
