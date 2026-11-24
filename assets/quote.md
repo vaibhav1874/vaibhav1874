@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Data is the new oil. AI is the new electricity."
+> "The only way to do great work is to love what you do."
 >
-> — **Andrew Ng**
+> — **Steve Jobs**
