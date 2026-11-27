@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "Intelligence is the ability to adapt to change."
+> "The science of today is the technology of tomorrow."
 >
-> — **Stephen Hawking**
+> — **Edward Teller**
