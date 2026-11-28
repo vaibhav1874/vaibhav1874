@@ -1,4 +1,4 @@
 <!-- AUTO-UPDATED DAILY BY GITHUB ACTIONS — DO NOT EDIT -->
-> "The science of today is the technology of tomorrow."
+> "AI is probably the most important thing humanity has ever worked on."
 >
-> — **Edward Teller**
+> — **Sundar Pichai**
